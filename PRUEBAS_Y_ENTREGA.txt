@@ -1,0 +1,101 @@
+
+SOFT CLINIC
+Evidencia GA7-220501096-AA2-EV01
+
+1. DESCRIPCION DEL PROYECTO
+
+Proyecto desarrollado en PHP utilizando como base el modelo
+suministrado por el docente.
+
+Se implementaron las clases:
+- Medico
+- Consultorio
+- Medicamento
+
+Cada clase incluye encapsulamiento, constructor, metodos de
+acceso y operaciones CRUD.
+
+2. BASE DE DATOS
+
+Motor: MySQL
+Base de datos: centromedico
+
+Tablas verificadas:
+- medicos
+- consultorios
+- medicamentos
+
+El archivo base_datos.sql contiene la estructura de la
+base de datos necesaria para el proyecto.
+
+3. ENTORNO DE DESARROLLO
+
+- Visual Studio Code
+- PHP 8.4
+- MySQL
+- MySQL Workbench
+
+La conexion se realiza mediante conexionBaseDatos.php.
+La contraseña de MySQL se proporciona mediante la variable
+de entorno SOFTCLINIC_DB_PASSWORD.
+
+4. PRUEBAS REALIZADAS
+
+MEDICOS
+[OK] Registrar medico
+[OK] Consultar medico
+[OK] Actualizar medico
+[OK] Eliminar medico
+
+CONSULTORIOS
+[OK] Registrar consultorio
+[OK] Consultar consultorio
+[OK] Actualizar consultorio
+[OK] Eliminar consultorio
+
+MEDICAMENTOS
+[OK] Registrar medicamento
+[OK] Consultar medicamento
+[OK] Actualizar medicamento
+[OK] Eliminar medicamento
+
+TOTAL: 12 operaciones CRUD verificadas correctamente.
+
+Tambien se verificaron:
+[OK] Conexion PHP con MySQL
+[OK] Existencia de las tres tablas
+[OK] Funcionamiento de la conexion despues de organizar
+     los archivos de prueba.
+
+5. ORGANIZACION DEL PROYECTO
+
+Los archivos principales se encuentran en la carpeta
+SOFT_CLINIC_AA2_EV01.
+
+La carpeta Pruebas contiene los archivos PHP utilizados
+para comprobar las operaciones CRUD y la conexion.
+
+La carpeta modelo_docente conserva los archivos originales
+proporcionados por el docente en la ruta ondrive.
+
+6. EJECUCION
+
+1. Tener PHP y MySQL instalados.
+2. Importar base_datos.sql en MySQL.
+3. Configurar las credenciales de conexion mediante la
+   variable de entorno SOFTCLINIC_DB_PASSWORD.
+4. Ejecutar las pruebas PHP desde la terminal.
+5. Consultar las tablas desde MySQL Workbench.
+
+7. REPOSITORIO
+
+El enlace del repositorio GitHub se registra en el archivo
+ENLACE_REPOSITORIO.txt.
+
+8. RESULTADO
+
+Se implementaron y verificaron las operaciones CRUD de
+Medicos, Consultorios y Medicamentos mediante PHP y MySQL.
+
+Los registros ficticios utilizados durante las pruebas
+fueron eliminados al finalizar las comprobaciones.
